@@ -31,6 +31,7 @@ var reservedKeys = []any{
 	BifrostContextKeyMCPHealthCheckRequest,
 	BifrostContextKeyUpstreamLatency,
 	BifrostContextKeyRoutingInfo,
+	BifrostContextKeyMCPInboundBearer,
 }
 
 // pluginLogStore holds plugin log entries accumulated during request processing.
